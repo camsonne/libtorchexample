@@ -1,0 +1,41 @@
+ifarm2402.jlab.org> bin/PARTONS_example data/examples/gpd/computeSingleKinematicsForGPD.xml
+Before the init
+Line 1
+Line 2
+Line 3
+Line 4
+Line 5
+03-09-2024 01:27:43 [INFO] (Partons::printVersion) PARTONS 3.0.0 (http://partons.cea.fr) distributed under GNU Public License
+03-09-2024 01:27:43 [INFO] (Partons::printVersion) Git branch and revision of this version is /
+03-09-2024 01:27:43 [INFO] (Partons::printVersion) Built using Elementary-Utils 3.0.0 (/) and NumA++ 3.0.0 (/)
+03-09-2024 01:27:43 [INFO] (GPDService::printResultListBuffer)
+GPDResult ChannelType: UNDEFINED ComputationModuleName: GPDGK11 IndexId: -1
+
+Kinematics: GPDKinematic ChannelType: UNDEFINED IndexId: -1
+x: 0.1 [none] xi: 0.2 [none] t: -0.1 [GeV2] muF2: 2 [GeV2] muR2: 2 [GeV2]
+
+Result: GPD H
+g: 1.21356419772346
+u: 5.10001896395725 u(+): 5.01601340863696 u(-): 5.18402451927754
+d: 3.25071439632003 d(+): 3.71356261658888 d(-): 2.78786617605118
+s: 0.532687756322447 s(+): 1.06537551264489 s(-): 0
+
+Result: GPD E
+g: 0.394675181022725
+u: 2.82293014585501 u(+): 0.537747853124165 u(-): 5.10811243858586
+d: -5.48036520904456 d(+): -4.38146363426515 d(-): -6.57926678382397
+s: -0.855746238742706 s(+): -1.71149247748541 s(-): 0
+
+Result: GPD Ht
+g: 0.196713846436613
+u: 1.78308763860078 u(+): 2.27315582319 u(-): 1.29301945401156
+d: -0.755350623497139 d(+): -1.00225457051068 d(-): -0.508446676483599
+s: 0 s(+): 0 s(-): 0
+
+Result: GPD Et
+g: 0
+u: 23.1801375984247 u(+): 33.2703905224653 u(-): 13.0898846743841
+d: 6.62289645669277 d(+): 9.50582586356152 d(-): 3.73996704982403
+s: 0 s(+): 0 s(-): 0
+
+03-09-2024 01:27:43 [INFO] (LoggerManager::close) ... Closed properly ...
